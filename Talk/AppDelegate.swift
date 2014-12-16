@@ -19,7 +19,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
         
         //Set up Parse key
-        Parse.setApplicationId("H92V2YxqEzYCaC4eKJxQIHDthMSil99FiDCCFcsV", clientKey: "wNKUKvUYJ7CtA7lw8xQgr6Dafv2OZ2kaG9QjQeGQ")
+        Parse.setApplicationId("*", clientKey: "*")
         
         //Parse Analytics
         PFAnalytics.trackAppOpenedWithLaunchOptionsInBackground(launchOptions, block: nil)
