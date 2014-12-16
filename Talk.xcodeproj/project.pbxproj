@@ -1,0 +1,560 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A203703A1A03AAE200E1D834 /* Messages.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20370391A03AAE200E1D834 /* Messages.swift */; };
+		A203703C1A03AAE200E1D834 /* Users.swift in Sources */ = {isa = PBXBuildFile; fileRef = A203703B1A03AAE200E1D834 /* Users.swift */; };
+		A20370421A03D8C100E1D834 /* KeyboardExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20370411A03D8C100E1D834 /* KeyboardExtension.swift */; };
+		A2648C861A02A3CB00261B34 /* MessagesExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2648C851A02A3CB00261B34 /* MessagesExtension.swift */; };
+		A2CDED881A03E11B004964E2 /* MenagedDocument.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2CDED871A03E11B004964E2 /* MenagedDocument.swift */; };
+		A2D730F31A0223B80067B12D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2D730F21A0223B80067B12D /* AppDelegate.swift */; };
+		A2D730F51A0223B80067B12D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2D730F41A0223B80067B12D /* ViewController.swift */; };
+		A2D730F81A0223B80067B12D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A2D730F61A0223B80067B12D /* Main.storyboard */; };
+		A2D730FA1A0223B80067B12D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A2D730F91A0223B80067B12D /* Images.xcassets */; };
+		A2D730FD1A0223B80067B12D /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = A2D730FB1A0223B80067B12D /* LaunchScreen.xib */; };
+		A2D731091A0223B80067B12D /* TalkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2D731081A0223B80067B12D /* TalkTests.swift */; };
+		A2D731141A0223DB0067B12D /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2D731121A0223DB0067B12D /* Bolts.framework */; };
+		A2D731151A0223DB0067B12D /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2D731131A0223DB0067B12D /* Parse.framework */; };
+		A2D731181A0224210067B12D /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2D731171A0224210067B12D /* AudioToolbox.framework */; };
+		A2D7311A1A0224270067B12D /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2D731191A0224270067B12D /* CFNetwork.framework */; };
+		A2D7311C1A02242F0067B12D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2D7311B1A02242F0067B12D /* CoreGraphics.framework */; };
+		A2D7311E1A0224390067B12D /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2D7311D1A0224390067B12D /* CoreLocation.framework */; };
+		A2D731201A0224430067B12D /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = A2D7311F1A0224430067B12D /* libz.dylib */; };
+		A2D731221A02244A0067B12D /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2D731211A02244A0067B12D /* MobileCoreServices.framework */; };
+		A2D731241A0224530067B12D /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2D731231A0224530067B12D /* QuartzCore.framework */; };
+		A2D731261A02245A0067B12D /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2D731251A02245A0067B12D /* Security.framework */; };
+		A2D731281A0224610067B12D /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2D731271A0224610067B12D /* StoreKit.framework */; };
+		A2D7312A1A02246B0067B12D /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2D731291A02246B0067B12D /* SystemConfiguration.framework */; };
+		A2D7312C1A0224700067B12D /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2D7312B1A0224700067B12D /* Social.framework */; };
+		A2D7312E1A0224790067B12D /* Accounts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2D7312D1A0224790067B12D /* Accounts.framework */; };
+		A2D731331A02260D0067B12D /* ChatSplitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2D731321A02260D0067B12D /* ChatSplitViewController.swift */; };
+		A2D731351A022ACC0067B12D /* UsersTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2D731341A022ACC0067B12D /* UsersTableViewController.swift */; };
+		A2D731391A022B8E0067B12D /* LogInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2D731381A022B8E0067B12D /* LogInViewController.swift */; };
+		A2D7313B1A022D6D0067B12D /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2D7313A1A022D6D0067B12D /* ChatViewController.swift */; };
+		A2D7313D1A023AED0067B12D /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2D7313C1A023AED0067B12D /* SignUpViewController.swift */; };
+		A2D731401A0267BB0067B12D /* TalkModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A2D7313E1A0267BB0067B12D /* TalkModel.xcdatamodeld */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A2D731031A0223B80067B12D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A2D730E51A0223B80067B12D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A2D730EC1A0223B80067B12D;
+			remoteInfo = Talk;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A20370391A03AAE200E1D834 /* Messages.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Messages.swift; path = ../Messages.swift; sourceTree = "<group>"; };
+		A203703B1A03AAE200E1D834 /* Users.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Users.swift; path = ../Users.swift; sourceTree = "<group>"; };
+		A20370411A03D8C100E1D834 /* KeyboardExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeyboardExtension.swift; sourceTree = "<group>"; };
+		A2648C851A02A3CB00261B34 /* MessagesExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessagesExtension.swift; sourceTree = "<group>"; };
+		A2CDED871A03E11B004964E2 /* MenagedDocument.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenagedDocument.swift; sourceTree = "<group>"; };
+		A2D730ED1A0223B80067B12D /* Talk.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Talk.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A2D730F11A0223B80067B12D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A2D730F21A0223B80067B12D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A2D730F41A0223B80067B12D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A2D730F71A0223B80067B12D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A2D730F91A0223B80067B12D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		A2D730FC1A0223B80067B12D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		A2D731021A0223B80067B12D /* TalkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TalkTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A2D731071A0223B80067B12D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A2D731081A0223B80067B12D /* TalkTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TalkTests.swift; sourceTree = "<group>"; };
+		A2D731121A0223DB0067B12D /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Bolts.framework; path = "../../parse-library-1.4.2/Bolts.framework"; sourceTree = "<group>"; };
+		A2D731131A0223DB0067B12D /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Parse.framework; path = "../../parse-library-1.4.2/Parse.framework"; sourceTree = "<group>"; };
+		A2D731171A0224210067B12D /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		A2D731191A0224270067B12D /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		A2D7311B1A02242F0067B12D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		A2D7311D1A0224390067B12D /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		A2D7311F1A0224430067B12D /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		A2D731211A02244A0067B12D /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		A2D731231A0224530067B12D /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		A2D731251A02245A0067B12D /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		A2D731271A0224610067B12D /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		A2D731291A02246B0067B12D /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		A2D7312B1A0224700067B12D /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
+		A2D7312D1A0224790067B12D /* Accounts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accounts.framework; path = System/Library/Frameworks/Accounts.framework; sourceTree = SDKROOT; };
+		A2D7312F1A0224C40067B12D /* Talk-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Talk-Bridging-Header.h"; sourceTree = SOURCE_ROOT; };
+		A2D731321A02260D0067B12D /* ChatSplitViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatSplitViewController.swift; sourceTree = "<group>"; };
+		A2D731341A022ACC0067B12D /* UsersTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UsersTableViewController.swift; sourceTree = "<group>"; };
+		A2D731381A022B8E0067B12D /* LogInViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LogInViewController.swift; sourceTree = "<group>"; };
+		A2D7313A1A022D6D0067B12D /* ChatViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatViewController.swift; sourceTree = "<group>"; };
+		A2D7313C1A023AED0067B12D /* SignUpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		A2D7313F1A0267BB0067B12D /* TalkModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TalkModel.xcdatamodel; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A2D730EA1A0223B80067B12D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2D7312E1A0224790067B12D /* Accounts.framework in Frameworks */,
+				A2D7312C1A0224700067B12D /* Social.framework in Frameworks */,
+				A2D7312A1A02246B0067B12D /* SystemConfiguration.framework in Frameworks */,
+				A2D731281A0224610067B12D /* StoreKit.framework in Frameworks */,
+				A2D731261A02245A0067B12D /* Security.framework in Frameworks */,
+				A2D731241A0224530067B12D /* QuartzCore.framework in Frameworks */,
+				A2D731221A02244A0067B12D /* MobileCoreServices.framework in Frameworks */,
+				A2D731201A0224430067B12D /* libz.dylib in Frameworks */,
+				A2D7311E1A0224390067B12D /* CoreLocation.framework in Frameworks */,
+				A2D7311C1A02242F0067B12D /* CoreGraphics.framework in Frameworks */,
+				A2D7311A1A0224270067B12D /* CFNetwork.framework in Frameworks */,
+				A2D731181A0224210067B12D /* AudioToolbox.framework in Frameworks */,
+				A2D731141A0223DB0067B12D /* Bolts.framework in Frameworks */,
+				A2D731151A0223DB0067B12D /* Parse.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A2D730FF1A0223B80067B12D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A2D730E41A0223B80067B12D = {
+			isa = PBXGroup;
+			children = (
+				A2D731161A0223E00067B12D /* Framework */,
+				A2D730EF1A0223B80067B12D /* Talk */,
+				A2D731051A0223B80067B12D /* TalkTests */,
+				A2D730EE1A0223B80067B12D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A2D730EE1A0223B80067B12D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A2D730ED1A0223B80067B12D /* Talk.app */,
+				A2D731021A0223B80067B12D /* TalkTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A2D730EF1A0223B80067B12D /* Talk */ = {
+			isa = PBXGroup;
+			children = (
+				A2D730F21A0223B80067B12D /* AppDelegate.swift */,
+				A2D730F41A0223B80067B12D /* ViewController.swift */,
+				A2D731381A022B8E0067B12D /* LogInViewController.swift */,
+				A2D7313C1A023AED0067B12D /* SignUpViewController.swift */,
+				A2D731321A02260D0067B12D /* ChatSplitViewController.swift */,
+				A2CDED871A03E11B004964E2 /* MenagedDocument.swift */,
+				A2D731341A022ACC0067B12D /* UsersTableViewController.swift */,
+				A2D7313A1A022D6D0067B12D /* ChatViewController.swift */,
+				A20370411A03D8C100E1D834 /* KeyboardExtension.swift */,
+				A2D730F61A0223B80067B12D /* Main.storyboard */,
+				A2D730F91A0223B80067B12D /* Images.xcassets */,
+				A2D730FB1A0223B80067B12D /* LaunchScreen.xib */,
+				A2D7313E1A0267BB0067B12D /* TalkModel.xcdatamodeld */,
+				A203703B1A03AAE200E1D834 /* Users.swift */,
+				A20370391A03AAE200E1D834 /* Messages.swift */,
+				A2648C851A02A3CB00261B34 /* MessagesExtension.swift */,
+				A2D730F01A0223B80067B12D /* Supporting Files */,
+			);
+			path = Talk;
+			sourceTree = "<group>";
+		};
+		A2D730F01A0223B80067B12D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A2D7312F1A0224C40067B12D /* Talk-Bridging-Header.h */,
+				A2D730F11A0223B80067B12D /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A2D731051A0223B80067B12D /* TalkTests */ = {
+			isa = PBXGroup;
+			children = (
+				A2D731081A0223B80067B12D /* TalkTests.swift */,
+				A2D731061A0223B80067B12D /* Supporting Files */,
+			);
+			path = TalkTests;
+			sourceTree = "<group>";
+		};
+		A2D731061A0223B80067B12D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A2D731071A0223B80067B12D /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A2D731161A0223E00067B12D /* Framework */ = {
+			isa = PBXGroup;
+			children = (
+				A2D731121A0223DB0067B12D /* Bolts.framework */,
+				A2D731131A0223DB0067B12D /* Parse.framework */,
+				A2D7312D1A0224790067B12D /* Accounts.framework */,
+				A2D7312B1A0224700067B12D /* Social.framework */,
+				A2D731291A02246B0067B12D /* SystemConfiguration.framework */,
+				A2D731271A0224610067B12D /* StoreKit.framework */,
+				A2D731251A02245A0067B12D /* Security.framework */,
+				A2D731231A0224530067B12D /* QuartzCore.framework */,
+				A2D731211A02244A0067B12D /* MobileCoreServices.framework */,
+				A2D7311F1A0224430067B12D /* libz.dylib */,
+				A2D7311D1A0224390067B12D /* CoreLocation.framework */,
+				A2D7311B1A02242F0067B12D /* CoreGraphics.framework */,
+				A2D731191A0224270067B12D /* CFNetwork.framework */,
+				A2D731171A0224210067B12D /* AudioToolbox.framework */,
+			);
+			name = Framework;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A2D730EC1A0223B80067B12D /* Talk */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A2D7310C1A0223B80067B12D /* Build configuration list for PBXNativeTarget "Talk" */;
+			buildPhases = (
+				A2D730E91A0223B80067B12D /* Sources */,
+				A2D730EA1A0223B80067B12D /* Frameworks */,
+				A2D730EB1A0223B80067B12D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Talk;
+			productName = Talk;
+			productReference = A2D730ED1A0223B80067B12D /* Talk.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A2D731011A0223B80067B12D /* TalkTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A2D7310F1A0223B80067B12D /* Build configuration list for PBXNativeTarget "TalkTests" */;
+			buildPhases = (
+				A2D730FE1A0223B80067B12D /* Sources */,
+				A2D730FF1A0223B80067B12D /* Frameworks */,
+				A2D731001A0223B80067B12D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A2D731041A0223B80067B12D /* PBXTargetDependency */,
+			);
+			name = TalkTests;
+			productName = TalkTests;
+			productReference = A2D731021A0223B80067B12D /* TalkTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A2D730E51A0223B80067B12D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Matteo Maselli";
+				TargetAttributes = {
+					A2D730EC1A0223B80067B12D = {
+						CreatedOnToolsVersion = 6.1;
+					};
+					A2D731011A0223B80067B12D = {
+						CreatedOnToolsVersion = 6.1;
+						TestTargetID = A2D730EC1A0223B80067B12D;
+					};
+				};
+			};
+			buildConfigurationList = A2D730E81A0223B80067B12D /* Build configuration list for PBXProject "Talk" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A2D730E41A0223B80067B12D;
+			productRefGroup = A2D730EE1A0223B80067B12D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A2D730EC1A0223B80067B12D /* Talk */,
+				A2D731011A0223B80067B12D /* TalkTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A2D730EB1A0223B80067B12D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2D730F81A0223B80067B12D /* Main.storyboard in Resources */,
+				A2D730FD1A0223B80067B12D /* LaunchScreen.xib in Resources */,
+				A2D730FA1A0223B80067B12D /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A2D731001A0223B80067B12D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A2D730E91A0223B80067B12D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2D730F51A0223B80067B12D /* ViewController.swift in Sources */,
+				A2D7313D1A023AED0067B12D /* SignUpViewController.swift in Sources */,
+				A2D730F31A0223B80067B12D /* AppDelegate.swift in Sources */,
+				A2D731401A0267BB0067B12D /* TalkModel.xcdatamodeld in Sources */,
+				A203703C1A03AAE200E1D834 /* Users.swift in Sources */,
+				A2648C861A02A3CB00261B34 /* MessagesExtension.swift in Sources */,
+				A2CDED881A03E11B004964E2 /* MenagedDocument.swift in Sources */,
+				A203703A1A03AAE200E1D834 /* Messages.swift in Sources */,
+				A2D731391A022B8E0067B12D /* LogInViewController.swift in Sources */,
+				A20370421A03D8C100E1D834 /* KeyboardExtension.swift in Sources */,
+				A2D731351A022ACC0067B12D /* UsersTableViewController.swift in Sources */,
+				A2D7313B1A022D6D0067B12D /* ChatViewController.swift in Sources */,
+				A2D731331A02260D0067B12D /* ChatSplitViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A2D730FE1A0223B80067B12D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2D731091A0223B80067B12D /* TalkTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A2D731041A0223B80067B12D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A2D730EC1A0223B80067B12D /* Talk */;
+			targetProxy = A2D731031A0223B80067B12D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A2D730F61A0223B80067B12D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A2D730F71A0223B80067B12D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A2D730FB1A0223B80067B12D /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A2D730FC1A0223B80067B12D /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A2D7310A1A0223B80067B12D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A2D7310B1A0223B80067B12D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A2D7310D1A0223B80067B12D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Users/daack/Desktop/parse-library-1.4.2",
+				);
+				INFOPLIST_FILE = Talk/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Talk-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A2D7310E1A0223B80067B12D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Users/daack/Desktop/parse-library-1.4.2",
+				);
+				INFOPLIST_FILE = Talk/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Talk-Bridging-Header.h";
+			};
+			name = Release;
+		};
+		A2D731101A0223B80067B12D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = TalkTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Talk.app/Talk";
+			};
+			name = Debug;
+		};
+		A2D731111A0223B80067B12D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = TalkTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Talk.app/Talk";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A2D730E81A0223B80067B12D /* Build configuration list for PBXProject "Talk" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A2D7310A1A0223B80067B12D /* Debug */,
+				A2D7310B1A0223B80067B12D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A2D7310C1A0223B80067B12D /* Build configuration list for PBXNativeTarget "Talk" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A2D7310D1A0223B80067B12D /* Debug */,
+				A2D7310E1A0223B80067B12D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A2D7310F1A0223B80067B12D /* Build configuration list for PBXNativeTarget "TalkTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A2D731101A0223B80067B12D /* Debug */,
+				A2D731111A0223B80067B12D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		A2D7313E1A0267BB0067B12D /* TalkModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				A2D7313F1A0267BB0067B12D /* TalkModel.xcdatamodel */,
+			);
+			currentVersion = A2D7313F1A0267BB0067B12D /* TalkModel.xcdatamodel */;
+			path = TalkModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = A2D730E51A0223B80067B12D /* Project object */;
+}
